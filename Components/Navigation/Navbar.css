@@ -1,0 +1,62 @@
+
+nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    cursor: pointer;
+    z-index: 10;
+    padding: 4px;
+    background-color: #FF9F66;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 60px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+nav .btn {
+    margin: 0 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.logo {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border-radius: 100px;
+}
+
+.btn {
+    height: 40px;
+    width: 200px;
+    font-weight: 700;
+    border-radius: 20px;
+    border-radius: 100px;
+    transition: 0.7s;
+    border: none;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.btn{
+    margin-top: 100px;
+}

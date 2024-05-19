@@ -1,0 +1,55 @@
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.accordian {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+.Item {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.unit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.unit h3:first-child {
+    font-size: 18px;
+    color: #333;
+}
+
+.unit h3:last-child {
+    font-size: 24px;
+    color: #007bff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.unit:hover h3:last-child {
+    transform: rotate(90deg);
+}
+
+.content {
+    padding: 10px;
+    background-color: white;
+}
+
+.content h6 {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.content h5 {
+    color: #333;
+    font-weight: bold;
+}

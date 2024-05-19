@@ -1,0 +1,27 @@
+.photo{
+display: flex;
+justify-content: center;
+justify-content: space-between;
+align-items: center;
+}
+img{
+    height: 200px;
+    width: 250px;
+    margin-left: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.9s ease;
+}
+img:hover{
+    transform: rotateY(360deg);
+}
+.names{
+    display: flex;
+    margin-left: 100px;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 80px;
+    font-size: x-large;
+}
