@@ -1,3 +1,7 @@
+![image](https://github.com/roggersanguzu/KinderGatten/assets/141458053/27fb21b0-a47d-4088-b03f-108f64dafac0)
+![image](https://github.com/roggersanguzu/KinderGatten/assets/141458053/54e9d8d7-9cb2-4efc-be91-fc60e2a2cd7e)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
